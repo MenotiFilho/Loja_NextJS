@@ -22,16 +22,19 @@ function ProductComponent() {
 		fetchProducts();
 	}, []);
 	return (
-		<div className="p-5 grid grid-cols-3 grid-flow-row-dense bg-gray-400 gap-5">
+		<div className="p-5 grid grid-cols-3 grid-flow-row-dense bg-gray-400 gap-5 ">
 			{products.map(({ category, id, description, image, price, title }) => (
-				<div key={id} className="bg-white min-w-[200px]">
-					<p>{title}</p>
+				<div
+					key={id}
+					className="bg-white w-fit h-fit flex items-center flex-col"
+				>
+					<p className="max-w-[400px] text-center">{title}</p>
 					<Image
 						src={image}
 						alt=""
 						height={200}
 						width={200}
-						className="object-contain"
+						style={{ objectFit: "contain" }}
 					/>
 				</div>
 			))}
