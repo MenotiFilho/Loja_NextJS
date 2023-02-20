@@ -29,13 +29,9 @@ function ProductComponent() {
 					className="bg-white w-fit h-fit flex items-center flex-col"
 				>
 					<p className="max-w-[400px] text-center">{title}</p>
-					<Image
-						src={image}
-						alt=""
-						height={200}
-						width={200}
-						style={{ objectFit: "contain" }}
-					/>
+					<div className="relative h-[200px] w-[200px]">
+						<Image src={image} alt="" fill className="object-contain" />
+					</div>
 				</div>
 			))}
 		</div>
