@@ -6,6 +6,10 @@ const nextConfig = {
 				protocol: "https",
 				hostname: "fakestoreapi.com",
 			},
+			{
+				protocol: "https",
+				hostname: "links.papareact.com",
+			},
 		],
 	},
 	experimental: {
@@ -15,3 +19,4 @@ const nextConfig = {
 
 module.exports = nextConfig;
 //https://fakestoreapi.com/
+//https://links.papareact.com/f90

@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@heroicons/react": "^2.0.16",
     "@next/font": "13.1.6",
     "@primer/react": "^35.19.0",
     "@tailwindcss/line-clamp": "^0.4.2",
