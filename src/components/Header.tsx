@@ -12,7 +12,7 @@ function Header() {
 			<div className="flex p-2 items-center bg-[#131921] flex-grow space-x-5">
 				<div className="mt-2 ml-4 flex items-center flex-grow sm:flex-grow-0">
 					<Image
-						src="https://links.papareact.com/f90"
+						src="https://pngimg.com/uploads/amazon/amazon_PNG11.png"
 						alt=""
 						width={110}
 						height={10}

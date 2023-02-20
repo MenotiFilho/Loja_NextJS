@@ -8,7 +8,7 @@ const nextConfig = {
 			},
 			{
 				protocol: "https",
-				hostname: "links.papareact.com",
+				hostname: "pngimg.com",
 			},
 		],
 	},
@@ -20,3 +20,4 @@ const nextConfig = {
 module.exports = nextConfig;
 //https://fakestoreapi.com/
 //https://links.papareact.com/f90
+//https://pngimg.com
