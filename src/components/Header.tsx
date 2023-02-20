@@ -16,6 +16,7 @@ function Header() {
 						alt=""
 						width={110}
 						height={10}
+						style={{ objectFit: "contain" }}
 						className="cursor-pointer"
 					/>
 				</div>
